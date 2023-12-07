@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y los títulos */
+}
+
+h3 {
+    display: block;
+    margin: 0; /* Elimina el margen predeterminado de los encabezados h3 */
+}
