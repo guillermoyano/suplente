@@ -5,17 +5,51 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    text-align: center; /* Alinea el texto al centro */
+    text-align: center;
+    /* Alinea el texto al centro */
 }
 
 img {
     display: block;
     max-width: 30%;
     height: auto;
-    margin-bottom: 10px; /* Espacio entre la imagen y los títulos */
+    margin-bottom: 30px;
+    /* Espacio entre la imagen y los títulos */
 }
 
 h3 {
     display: block;
-    margin: 0; /* Elimina el margen predeterminado de los encabezados h3 */
+    margin: 0;
+    /* Elimina el margen predeterminado de los encabezados h3 */
+}
+
+a {
+    text-decoration: none;
+    /* Elimina el subrayado predeterminado de los enlaces */
+    color: inherit;
+    /* Hereda el color del texto del elemento padre */
+}
+
+a:visited {
+    color: inherit;
+    /* Hereda el color del texto del elemento padre también para los enlaces visitados */
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* Espaciado entre la línea de arriba y los iconos */
+}
+
+.social-links a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+    /* Espaciado entre los iconos */
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+    /* Elimina el margen derecho del último ícono para evitar espacio adicional */
 }
